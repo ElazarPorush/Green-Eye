@@ -1,4 +1,3 @@
-const { type } = require('express/lib/response')
 const mongoose = require('mongoose')
 
 const userSchema = new mongoose.Schema({
@@ -15,7 +14,18 @@ const userSchema = new mongoose.Schema({
         type: String,
         enum: ['soldier', 'commander'],
         required: [true, "please provide a role"]
+    },
+    area: {
+        type:String,
+        enum: ['center', 'north', 'south', 'west', 'east'],
+        required: [true, "please provide an area"]
+    },
+    units: {
+        type: [Number],
+        required: [true, "please specify at least one unit"]
     }
 })
 
-const userModel = mongoose.model('user', userSchema)
+const UserModel = mongoose.model('user', userSchema)
+
+module.exports = UserModel
