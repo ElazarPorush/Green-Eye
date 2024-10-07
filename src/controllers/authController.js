@@ -2,7 +2,7 @@
 const login = async (req, res) => {
     try {
         
-    } catch (error) {
+    } catch (err) {
         
     }
 }
@@ -10,7 +10,7 @@ const login = async (req, res) => {
 const logout = async (req, res) => {
     try {
         
-    } catch (error) {
+    } catch (err) {
         
     }
 }

@@ -2,7 +2,7 @@
 const createPoll = async (req, res) => {
     try {
         
-    } catch (error) {
+    } catch (err) {
         
     }
 }
@@ -10,7 +10,7 @@ const createPoll = async (req, res) => {
 const getNotifications = async (req, res) => {
     try {
         
-    } catch (error) {
+    } catch (err) {
         
     }
 }
@@ -18,7 +18,7 @@ const getNotifications = async (req, res) => {
 const getPollById = async (req, res) => {
     try {
         
-    } catch (error) {
+    } catch (err) {
         
     }
 }
@@ -26,7 +26,7 @@ const getPollById = async (req, res) => {
 const reply = async (req, res) => {
     try {
         
-    } catch (error) {
+    } catch (err) {
         
     }
 }
@@ -34,7 +34,7 @@ const reply = async (req, res) => {
 const deletePoll = async (req, res) => {
     try {
         
-    } catch (error) {
+    } catch (err) {
         
     }
 }
