@@ -1,48 +1,35 @@
-
 const createPoll = async (req, res) => {
     try {
-        res.send("you have got me, mr commander")
-    } catch (err) {
-        
-    }
-}
-
-const getNotifications = async (req, res) => {
+     res.send("You've got me, mr commander")
+    } catch (err) {}
+  };
+  
+  const getNotifications = async (req, res) => {
     try {
-        
-    } catch (err) {
-        
-    }
-}
+     res.send("You've got me, mr commander? solider? who knows?!")
 
-const getPollById = async (req, res) => {
+    } catch (err) {}
+  };
+  
+  const getPollById = async (req, res) => {
     try {
-        
-    } catch (err) {
-        
-    }
-}
-
-const reply = async (req, res) => {
+    } catch (err) {}
+  };
+  
+  const reply = async (req, res) => {
     try {
-        
-    } catch (err) {
-        
-    }
-}
-
-const deletePoll = async (req, res) => {
+    } catch (err) {}
+  };
+  
+  const deletePoll = async (req, res) => {
     try {
-        
-    } catch (err) {
-        
-    }
-}
-
-module.exports = {
+    } catch (err) {}
+  };
+  
+  module.exports = {
     createPoll,
     getNotifications,
     getPollById,
     reply,
     deletePoll
-}
+  };
